@@ -16,12 +16,12 @@ public class Task6 {
         if (discriminant < 0) {
             System.out.println("Уровнение не имеет вещественных корней.");
         } else if (discriminant == 0) {
-            x1 = (double) -(coefficientB) / (2 * coefficientA);
+            x1 = (double) -(coefficientB) / (2 * coefficientA); //деление на 0 при а = 0
             System.out.println("Уровнение имеет один вещественный корень.");
             System.out.println("x = " + x1);
         } else {
-            x1 = (-(coefficientB) + Math.sqrt(discriminant)) / (2 * coefficientA);
-            double x2 = (-(coefficientB) - Math.sqrt(discriminant)) / (2 * coefficientA);
+            x1 = (-(coefficientB) + Math.sqrt(discriminant)) / (2 * coefficientA); //деление на 0 при а = 0
+            double x2 = (-(coefficientB) - Math.sqrt(discriminant)) / (2 * coefficientA); //деление на 0 при а = 0
             System.out.println("Уровнение имеет два вещественных корня.");
             System.out.println("x1 = " + x1);
             System.out.println("x2 = " + x2);
