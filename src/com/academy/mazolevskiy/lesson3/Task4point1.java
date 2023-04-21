@@ -15,7 +15,7 @@ public class Task4point1 {
         int[] array = new int[stringArray.length];
         for (int i = 0; i < stringArray.length; i++) {
             array[i] = Integer.valueOf(stringArray[i]);
-            System.out.println(array[i]);
+            System.out.println(array[i]); // не надо выводить массив на экран тут. для этого лучше использовать отдельный метод
         }
         return array;
     }
